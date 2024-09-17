@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brigh\\OneDrive\\Documents\\ai\\Cursor\\KitchenTool\\KitchenUnitConverter.csproj",
+      "projectUniqueName": "C:\\ai\\Cursor\\KitchenToolApp\\Kitchentool\\KitchenUnitConverter.csproj",
       "projectName": "KitchenUnitConverter",
-      "projectPath": "C:\\Users\\brigh\\OneDrive\\Documents\\ai\\Cursor\\KitchenTool\\KitchenUnitConverter.csproj",
+      "projectPath": "C:\\ai\\Cursor\\KitchenToolApp\\Kitchentool\\KitchenUnitConverter.csproj",
       "packagesPath": "C:\\Users\\brigh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brigh\\OneDrive\\Documents\\ai\\Cursor\\KitchenTool\\obj\\",
+      "outputPath": "C:\\ai\\Cursor\\KitchenToolApp\\Kitchentool\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brigh\\AppData\\Roaming\\NuGet\\NuGet.Config"

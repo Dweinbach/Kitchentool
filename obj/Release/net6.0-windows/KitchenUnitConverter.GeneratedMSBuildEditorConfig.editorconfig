@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KitchenUnitConverter
-build_property.ProjectDir = C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\
+build_property.ProjectDir = C:\ai\Cursor\KitchenToolApp\Kitchentool\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
