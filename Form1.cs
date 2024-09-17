@@ -10,6 +10,19 @@ namespace KitchenUnitConverter
         {
             InitializeComponent();
             InitializeComboBoxes();
+
+            // Add a menu strip if not already present
+            MenuStrip menuStrip = new MenuStrip();
+            this.Controls.Add(menuStrip);
+
+            // Add Help menu
+            ToolStripMenuItem helpMenu = new ToolStripMenuItem("Help");
+            menuStrip.Items.Add(helpMenu);
+
+            // Add About item to Help menu
+            ToolStripMenuItem aboutItem = new ToolStripMenuItem("About");
+            aboutItem.Click += AboutItem_Click;
+            helpMenu.DropDownItems.Add(aboutItem);
         }
 
         private void InitializeComboBoxes()
@@ -133,6 +146,11 @@ namespace KitchenUnitConverter
                 "oz" => gValue / 28.3495,
                 _ => throw new ArgumentException("Invalid unit"),
             };
+        }
+
+        private void AboutItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Copyright 2024 David Weinbach", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
