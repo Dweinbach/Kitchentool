@@ -19,3 +19,4 @@ C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\obj\Debug\net6.0-windows
 C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\obj\Debug\net6.0-windows\KitchenUnitConverter.pdb
 C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\obj\Debug\net6.0-windows\KitchenUnitConverter.genruntimeconfig.cache
 C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\obj\Debug\net6.0-windows\ref\KitchenUnitConverter.dll
+C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\obj\Debug\net6.0-windows\KitchenUnitConverter.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KitchenUnitConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b47feef5a8c956dbab74fb5d12e0d04ec33a80a")]
 [assembly: System.Reflection.AssemblyProductAttribute("KitchenUnitConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KitchenUnitConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
