@@ -1,0 +1,5 @@
+C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\bin\Release\net6.0-windows\publish\KitchenUnitConverter.exe
+C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\bin\Release\net6.0-windows\publish\KitchenUnitConverter.dll
+C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\bin\Release\net6.0-windows\publish\KitchenUnitConverter.deps.json
+C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\bin\Release\net6.0-windows\publish\KitchenUnitConverter.runtimeconfig.json
+C:\Users\brigh\OneDrive\Documents\ai\Cursor\KitchenTool\bin\Release\net6.0-windows\publish\KitchenUnitConverter.pdb

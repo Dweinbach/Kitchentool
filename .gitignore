@@ -3,3 +3,7 @@
    .vs/
    *.user"bin/" 
 "obj/" 
+"bin/" 
+"obj/" 
+"*.user" 
+".vs/" 

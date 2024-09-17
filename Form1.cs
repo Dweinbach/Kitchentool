@@ -10,19 +10,16 @@ namespace KitchenUnitConverter
         {
             InitializeComponent();
             InitializeComboBoxes();
+            AddAboutToContextMenu();
+        }
 
-            // Add a menu strip if not already present
-            MenuStrip menuStrip = new MenuStrip();
-            this.Controls.Add(menuStrip);
-
-            // Add Help menu
-            ToolStripMenuItem helpMenu = new ToolStripMenuItem("Help");
-            menuStrip.Items.Add(helpMenu);
-
-            // Add About item to Help menu
+        private void AddAboutToContextMenu()
+        {
+            ContextMenuStrip contextMenu = new ContextMenuStrip();
             ToolStripMenuItem aboutItem = new ToolStripMenuItem("About");
             aboutItem.Click += AboutItem_Click;
-            helpMenu.DropDownItems.Add(aboutItem);
+            contextMenu.Items.Add(aboutItem);
+            this.ContextMenuStrip = contextMenu;
         }
 
         private void InitializeComboBoxes()
