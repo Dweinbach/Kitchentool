@@ -25,8 +25,8 @@ namespace KitchenUnitConverter
         private void InitializeComboBoxes()
         {
             // Volume units
-            cboVolumeFrom.Items.AddRange(new string[] { "ml", "tsp", "tbsp", "cups" });
-            cboVolumeTo.Items.AddRange(new string[] { "ml", "tsp", "tbsp", "cups" });
+            cboVolumeFrom.Items.AddRange(new string[] { "ml", "tsp", "tbsp", "cups", "liters", "quarts", "fl oz" });
+            cboVolumeTo.Items.AddRange(new string[] { "ml", "tsp", "tbsp", "cups", "liters", "quarts", "fl oz" });
             cboVolumeFrom.SelectedIndex = 0;
             cboVolumeTo.SelectedIndex = 0;
 
@@ -50,7 +50,7 @@ namespace KitchenUnitConverter
         private void ConvertVolume()
         {
             string input = txtVolumeFrom.Text;
-            string fromUnit = ExtractUnit(input, new string[] { "ml", "tsp", "tbsp", "cups" });
+            string fromUnit = ExtractUnit(input, new string[] { "ml", "tsp", "tbsp", "cups", "liters", "quarts", "fl oz" });
             if (fromUnit == null)
             {
                 fromUnit = cboVolumeFrom.SelectedItem.ToString();
@@ -110,6 +110,9 @@ namespace KitchenUnitConverter
                 "tsp" => value * 4.92892,
                 "tbsp" => value * 14.7868,
                 "cups" => value * 236.588,
+                "liters" => value * 1000,
+                "quarts" => value * 946.353,
+                "fl oz" => value * 29.5735,
                 _ => throw new ArgumentException("Invalid unit"),
             };
 
@@ -120,6 +123,9 @@ namespace KitchenUnitConverter
                 "tsp" => mlValue / 4.92892,
                 "tbsp" => mlValue / 14.7868,
                 "cups" => mlValue / 236.588,
+                "liters" => mlValue / 1000,
+                "quarts" => mlValue / 946.353,
+                "fl oz" => mlValue / 29.5735,
                 _ => throw new ArgumentException("Invalid unit"),
             };
         }
